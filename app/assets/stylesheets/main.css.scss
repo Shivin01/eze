@@ -30,11 +30,11 @@
 
 /* 
 /* a. Webfonts and Iconfonts
-/* =================================================================== */
+/* =================================================================== 
 @import url("fonts.css");
-@import url("font-awesome/css/font-awesome.min.css");
-@import url("simple-line-icons/simple-line-icons.css");
-
+@import url("stylesheets/font-awesome.min.css");
+@import url("stylesheets/simple-line-icons/simple-line-icons.css");
+*/
 /* 
 /* b. Document Setup
 /* =================================================================== */
@@ -828,11 +828,11 @@ header .logo a {
 	height: 12px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-    background-image:url('<%= asset_path("logo.png") %> ');
+    background-image: image-url("logo.png");
 }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo a {
-         background-image:url('<%= asset_path("logo-@2x.png") %> ');
+         background-image: image-url("logo-@2x.png");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
@@ -1159,7 +1159,8 @@ hr {
 ---------------------------------------------------------------------- */
 #page-title {
 	background: #12151b;
-    background-image:url('<%= asset_path("hero-bg.jpg") %> ') no-repeat center center fixed;
+    background-image: no-repeat center center fixed;
+    background-image: image-url("hero-bg.jpg");
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -1280,7 +1281,8 @@ hr {
 /* =================================================================== */
 #hero {
 	background: #12151b;
-    background-image:url('<%= asset_path("hero1-bg.jpg") %> ') no-repeat center center fixed;
+    background-image:  no-repeat center center fixed;
+    background-image: image-url("hero1-bg.jpg");
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -1681,7 +1683,8 @@ hr {
 /* =================================================================== */
 #journal {
 	background: #a43b0a;
-    background-image:url('<%= asset_path("blog-bg.jpg") %> ') no-repeat bottom center fixed;
+    background-image:no-repeat bottom center fixed;
+    background-image: image-url("blog-bg.jpg");
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;

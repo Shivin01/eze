@@ -4,6 +4,7 @@
 <!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
    <!--- Basic Page Needs
    ================================================== -->
@@ -24,7 +25,6 @@
 
    <!-- Script
    =================================================== -->
-	<script src="js/modernizr.js"></script>
 
    <!-- Favicons
 	=================================================== -->
@@ -155,9 +155,9 @@ Contact soon!
 
 	      		<div class="bgrid">
 
-	               <div class="icon-part">
+	            <!--   <div class="icon-part">
 	               	<span class="icon-graph"></span>
-	               </div>
+	               </div> -->
 
 	               <h3>Product Designing Consultancy</h3>
 
@@ -174,9 +174,9 @@ We Just Seek It Out. We provide product Designing consultancy service to meet th
 
 				   <div class="bgrid">
 
-	              	<div class="icon-part">
+	          <!--    	<div class="icon-part">
 	               	<i class="icon-eye"></i>	               	
-	               </div>
+	               </div> -->
 	                  
 	               <h3>Inventors Den</h3> 
 
@@ -197,9 +197,9 @@ We Just Seek It Out. We provide product Designing consultancy service to meet th
 
 				   <div class="bgrid first">
 
-	              	<div class="icon-part">
+	              <!--	<div class="icon-part">
 	               	<i class="icon-screen-desktop"></i>
-	               </div>
+	               </div> -->
 	                  
 	               <h3>EZe Projects</h3>
 
@@ -214,9 +214,9 @@ We create new to make living better and comfortable. EZe is committed to Innovat
 
 				   <div class="bgrid">
 
-	               <div class="icon-part">
+	               <!--<div class="icon-part">
 	               	<i class="icon-eyeglasses"></i>
-	               </div>
+	               </div> -->
 
 	               <h3>EZe Learn.</h3>
 
@@ -304,7 +304,8 @@ We take Engineering to another level!<br>
 	                           
 	                  
 	            </article>
-	            </br>
+	            <br>
+                <br>
 	            <article class="bgrid">
 						
 						<h5>Student Internship Program</h5>
@@ -342,19 +343,37 @@ We take Engineering to another level!<br>
 
       </div>
     
+        <div class="row form-section">
+      	
+      	<div id="contact-form" class="twelve columns">
+
+            <form name="contactForm" id="contactForm" method="post" action="">
+
+      			<fieldset>
+
+                  <div class="row">
+                    
+                <div class="six columns mob-whole">      
+       
   <%= form_for(:land, :url => {:action => "create"}, :html => {:multipart => true}) do |f| %>
-            <%= f.text_field :firstname, placeholder: "First Name" %> <br />
-            <%= f.text_field :lastname, placeholder: "Last Name" %> <br />
-            <%= f.text_field :email,  placeholder: "Email" %> <br />
-            <%= f.text_field :subject, placeholder: "Subject" %><br />
-            <%= f.text_area :message,  placeholder: "Message" %> <br />
+            <%= f.text_field :firstname, class:"six columns mob-whole", placeholder: "First Name" %> <br />
+            <%= f.text_field :lastname, class:"six columns mob-whole", placeholder: "Last Name" %> <br />
+            <%= f.text_field :email, class:"six columns mob-whole", placeholder: "Email" %> <br />
+            <%= f.text_field :subject, class:"six columns mob-whole", placeholder: "Subject" %><br />
+            <%= f.text_area :message, class:"six columns mob-whole", placeholder: "Message" %> <br />
 	    <input type="submit" value="Send">
 	 <% end %>
       <!-- /form-section -->     
 
-	   
+                      </div>
+                    </div>
+                </fieldset>
+            </form>
+            </div>
+       </div>
 
    </section>  <!-- /contact-->
+
 
 <footer>
 <p class="copyright">Designed by <a href="http://www.facebook.com/ShivinAgarwal">Shivin Agarwal.</a></p>     
@@ -364,13 +383,6 @@ We take Engineering to another level!<br>
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/backstretch.js"></script> 
-   <script src="js/waypoints.js"></script>  
-   <script src="js/main.js"></script>
-
 </body>
 
 </html>

@@ -1,11 +1,44 @@
+<section id="contact">
+    <div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Eze Brings you with internship programs<span>.</span></h1>
+
+	         <hr />
+
+	         <p>Give us your details us!</p>
+
+	      </div>
+
+      </div>
+    <div class="row form-section">
+      	
+      	<div id="contact-form" class="twelve columns">
+
+            <form name="contactForm" id="contactForm" method="post" action="">
+
+      			<fieldset>
+
+                  <div class="row">
+                    
+                <div class="six columns mob-whole">
+
 <%= form_for(:intern, :url => {:action => "create"}, :html => {:multipart => true}) do |f| %>
-            <%= f.text_field :name, placeholder: "Name" %> <br />
-            <%= f.text_field :college, placeholder: "College" %> <br />
-            <%= f.text_field :course,  placeholder: "Course" %> <br />
-            <%= f.text_field :email, placeholder: "Email" %><br />
-            <%= f.text_area :year,  placeholder: "Year" %> <br />
-            <%= f.text_area :number,  placeholder: "Number" %> <br />
-            <%= f.text_area :field,  placeholder: "Field Of Interest" %> <br />
+            <%= f.text_field :name, class:"six columns mob-whole", placeholder: "Name" %> <br />
+            <%= f.text_field :college, class:"six columns mob-whole", placeholder: "College" %> <br />
+            <%= f.text_field :course, class:"six columns mob-whole", placeholder: "Course" %> <br />
+            <%= f.text_field :email, class:"six columns mob-whole", placeholder: "Email" %><br />
+            <%= f.text_area :year, class:"six columns mob-whole", placeholder: "Year" %> <br />
+            <%= f.text_area :number, class:"six columns mob-whole", placeholder: "Number" %> <br />
+            <%= f.text_area :field, class:"six columns mob-whole", placeholder: "Field Of Interest" %> <br />
 	    <input type="submit" value="Send">
 	 <% end %>
       <!-- /form-section -->   
+                      </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</section>
