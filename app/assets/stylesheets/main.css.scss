@@ -30,11 +30,11 @@
 
 /* 
 /* a. Webfonts and Iconfonts
-/* =================================================================== 
+/* =================================================================== */
 @import url("fonts.css");
-@import url("stylesheets/font-awesome.min.css");
-@import url("stylesheets/simple-line-icons/simple-line-icons.css");
-*/
+@import url("font-awesome.min.css.scss.erb");
+@import url("simple-line-icons.css");
+
 /* 
 /* b. Document Setup
 /* =================================================================== */
@@ -1564,7 +1564,7 @@ hr {
 .service-list .icon-part {
 	background: #f26522;
 	color: white;
-	width: 72px;
+	width: 90px;
 	padding: 15px 3px;
 	font-size: 40px;
 	border-radius: 3px;
