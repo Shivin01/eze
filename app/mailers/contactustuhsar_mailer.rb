@@ -6,7 +6,7 @@ def contact_created(current_user,pin_user,content)
 	@subject = subject
 	@message = message
 
-	mail(to: tuhsar.ezeinno@gmail.com, 
+	mail(to: "tuhsar.ezeinno@gmail.com",
 		 from: "services@mydomain.com",
 		 subject: "Eze Innovations",
 		 #body: "Thankyou for contacting Eze Innovations We will conatct you soon!"
