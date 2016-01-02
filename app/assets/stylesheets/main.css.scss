@@ -828,7 +828,7 @@ header .logo a {
 	height: 12px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-    background-image: image-url("logo.png");
+    background-image: image-url("logo.jpg");
 }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo a {
@@ -1050,9 +1050,9 @@ footer a:hover, footer a:focus {
 	color: white;
 }
 footer h3 {
-	font: 13px/24px "raleway-bold", sans-serif;
+	font: 13px/22px "raleway-bold", sans-serif;
 	margin-bottom: 0;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }

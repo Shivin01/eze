@@ -22,6 +22,17 @@ module Eze
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
+
+      ActionMailer::Base.smtp_settings = {
+    :address => "smtp.gmail.com",
+    :domain => "mail.google.com",
+    :port => 587,
+    :user_name => "railsmailerapp@gmail.com",
+    :password => "Mailer879",
+    :authentication => "login",
+    :enable_starttls_auto => true
+    } 
     config.active_record.raise_in_transactional_callbacks = true
+
   end
 end
