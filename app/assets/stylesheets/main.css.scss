@@ -31,9 +31,9 @@
 /* 
 /* a. Webfonts and Iconfonts
 /* =================================================================== */
-@import url("fonts.css");
-@import url("font-awesome.min.css.scss.erb");
-@import url("simple-line-icons.css");
+@import url("fonts.css.erb");
+@import url("font-awesome.min.css.erb");
+@import url("simple-line-icons.css.erb");
 
 /* 
 /* b. Document Setup
@@ -1160,7 +1160,7 @@ hr {
 #page-title {
 	background: #12151b;
     background-image: no-repeat center center fixed;
-    background-image: image-url("hero-bg.jpg");
+    background-image: image-url("hero1-bg.jpg");
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
