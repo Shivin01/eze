@@ -1197,6 +1197,7 @@ hr {
 	text-align: center;
 }
 
+
 /* section head
 ---------------------------------------------------------------------- */
 .section-head {
@@ -1660,13 +1661,14 @@ hr {
 	max-width: 934px;
 }
 #about h3 {
-	font: 16px/36px "raleway-heavy", sans-serif;
+	font: 25px/36px "raleway-heavy", sans-serif;
 	text-transform: none;
 	padding: 0;
 	margin-bottom: 0;
 }
 #about p {
 	color: #707273;
+    font-size: 20px;
 }
 #about .left {
 	padding-right: 30px;
