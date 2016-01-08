@@ -1,10 +1,7 @@
-class Contactus_Mailer < ActionMailer::Base
+class ContactusMailer < ActionMailer::Base
 
-def contact_created(current_user,pin_user,content)
+def contact_created(email)
 	@email = email
-	@firstname = firstname
-	@subject = subject
-	@message = message
 
 	mail(to: email, 
 		 from: "services@mydomain.com",

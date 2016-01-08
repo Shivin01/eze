@@ -24,8 +24,8 @@
   	/*----------------------------------------------------*/
 
   	if($("html").hasClass('ie8')) {
-  		$("#hero").backstretch("/app/assets/images/hero1-bg.jpg");
-  		$("#page-title").backstretch("/app/assets/images/hero1-bg.jpg");	
+  		$("#hero").backstretch("app/assets/images/hero1-bg.jpg");
+  		$("#page-title").backstretch("app/assets/images/hero1-bg.jpg");	
   	} 
 
    /*----------------------------------------------------*/

@@ -18,14 +18,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- CSS
-    ================================================== --> 
-    <link rel="stylesheet" href="assets/base.css.scss">
-	<link rel="stylesheet" href="assets/main.css.scss">
-   <link rel="stylesheet" href="assets/media-queries.css.scss">  
+    ================================================== -->  
 
    <!-- Script
    =================================================== -->
-   <script src="/assets/modernizr.js"></script>
+   <script src="assets/modernizr.js"></script>
 
    <!-- Favicons
 	=================================================== -->
@@ -52,7 +49,7 @@
    	<div class="row header-inner">
 
 	      <div class="logo">
-	         <a class="smoothscroll" href="#hero">Eze Innovations.</a>
+	         <a class="smoothscroll" href="#hero">EZe Innovations.</a>
 	      </div>
 
 	      <nav id="nav-wrap">         
@@ -68,8 +65,8 @@
 
 	         <ul id="nav" class="nav">
 	            <li class="current"><a class="smoothscroll" href="#hero">Home.</a></li>
+                <li><a class="smoothscroll" href="#about">About.</a></li>
 	            <li><a class="smoothscroll" href="#journal">Services.</a></li>
-	            <li><a class="smoothscroll" href="#about">About.</a></li>
 	            <li><a class="smoothscroll" href="#journal">Join Us.</a></li>	            
 	            <li><a class="smoothscroll" href="#contact">Contact.</a></li>
 	         </ul> 
@@ -96,8 +93,8 @@
 					   <!-- Slide -->
 					   <li>
 						   <div class="flex-caption">
-								<h1>Your Idea, Our Backup. Welcome to Eze Innovations.</h1>	
-								<p><a class="button stroke smoothscroll" href="#journal">Get Started</a></p>																   
+								<h1>Your Idea, Our Backup. Welcome to EZe Innovations.</h1>	
+								<p><a class="button stroke smoothscroll" href="#about">Get Started</a></p>																   
 							</div>						
 					   </li>
 
@@ -105,7 +102,7 @@
 					   <li>						
 							<div class="flex-caption">
 								<h1 >Taking Engineering To Zenith.</h1>	
-								<p><a class="button stroke smoothscroll" href="#services">See Our Services</a></p>									   
+								<p><a class="button stroke smoothscroll" href="#journal">See Our Services</a></p>									   
 							</div>					
 					   </li>
 
@@ -139,12 +136,12 @@
 
 	         <hr />
 
-	         <p>Eze Innovations is a Product Innovation Firm which aims at nurturing innovators in India Through our specialized training and mentoring. We endeavour to create a platform for Innovative Minds to transform their Ideas into reality by providing all the resources required for a successful buildup.
+	         <p>EZe Innovations is a Product Innovation Firm which aims at nurturing innovators in India Through our specialized training and mentoring. We endeavour to create a platform for Innovative Minds to transform their Ideas into reality by providing all the resources required for a successful buildup.
 Come, Innovate with us and let us Engineer to Zenith. 
 <br>
 </p>
 <p>
-Concept design, Aesthetics & Ergonomics, Design for Functionality, Value Engineering, Reverse Engineering, CAD Drafting, Modelling of Plastic Parts & Assemblies, GD&T, Production Drawings, Tolerance stack-up analysis, snap fit validation studies & Research</p>
+We have preferred Human relations and values over and above profits and revenue and this distinguishes EZe Innovations from others. Your satisfaction is very important for us as that will be the measuring scale for our achievements.</p>
 <br>
 	      </div>
 
@@ -165,17 +162,24 @@ Concept design, Aesthetics & Ergonomics, Design for Functionality, Value Enginee
 	   <div class="row section-head">
 	   	<div class="twelve columns">
 			   <article class="bgrid">
-						<h1>For Corparates<span>.</span></h1>
+						<h1>For Corporates<span>.</span></h1>
                    <hr />
 	               <h5>Product Design Consulatancy</h5>
 	               <p>We believe that perfection hides just below the surface,
 We Just seek It Out. We provide Product Designing Consultancy service to meet the market needs for your product. 
-	               </p>     
+	               </p>
             </article>
+            
+            <article class="bgrid">
+                <center>
+	                <h3><%= link_to "Read more", products_path, class: "button primary full-width" %></h3>
+                </center>
+	            </article>
+            
             <article class="bgrid">
 	               <h5>EZe Projects</h5>
 	                           
-	               <p>We create new to make living better and comfortable. Eze is committed to Innovate and bring its products for market.</p>
+	               <p>We create new to make living better and comfortable. EZe is committed to Innovate and bring its products for market.</p>
 	                        
 	            </article>
 		    </div>
@@ -192,11 +196,17 @@ We Just seek It Out. We provide Product Designing Consultancy service to meet th
                    <hr />
 	               <h5>Inventor's Den</h5>
 	                           
-	               <p>Upload your idea. Selection on the basis of feasibility and popularity. Work with experts and transform your idea into reality. We will pitch your idea in the market. On the basis of your idea and input.</p>     
+	               <p>Inventor’s Den is our organization’s Vertical which allows innovative seeds to transform their ideas into reality. We believe in simple but effective innovations which doesn’t suck. It’s not enough to have couple of snazzy design, It should have amazing stuff, quick and reliable on global scale.</p> 
             </article>
+            
             <article class="bgrid">
+                <center>
+	               <h3><%= link_to "Read more", inventors_path, class: "button primary full-width" %></h3>
+                </center>
+	            </article>
+            
+            <article class="bgrid">      
 	               <h5>EZe Learn</h5>
-	                           
 	               <p>Innovative minds need a seed to grow. We implant that seed of knowledge in creative minds.
 Providing utility Workshops in schools and colleges for development of their interest and excel with their ideas. </p>
 	                        
@@ -212,23 +222,14 @@ Providing utility Workshops in schools and colleges for development of their int
 	         <div id="blog-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole group">
 
 	            <article class="bgrid">
-						
 						<h5>Student Ambassador Program</h5>
-	               <h3><%= link_to "Apply here", ambassadors_path %></h3>
-                    <hr />
-	                           
-	                  
+	               <h3><%= link_to "Apply here", ambassadors_path, class: "button primary full-width"  %></h3>
 	            </article>
 	            <br>
                 <br>
 	            <article class="bgrid">
-						
 						<h5>Student Internship Program</h5>
-	               <h3><%= link_to "Apply here", interns_path %></h3>
-                    <hr />
-	                           
-	              
-	                        
+	               <h3><%= link_to "Apply here", interns_path, class: "button primary full-width"  %></h3>
 	            </article>
 
 
@@ -253,41 +254,28 @@ Providing utility Workshops in schools and colleges for development of their int
 
 	         <hr />
 
-	         <p>For any queries, write to us!</p>
+            <p>For any queries,contact us on</p> 
+            <p>1. Tushar Gulati: +91-7838119583</p>
+            <p>2. Rohit Gupta +91-9711386797</p>
+            <p>email- contact@ezeinnovations.in
+            <p>Or simply write to us!</p>
 
 	      </div>
 
       </div>
     
-        <div class="row form-section">
-      	
-      	<div id="contact-form" class="twelve columns">
-
-            <form name="contactForm" id="contactForm" method="post" action="">
-
-      			<fieldset>
-
-                  <div class="row">
-                    
-                <div class="six columns mob-whole">      
+        
        
   <%= form_for(:land, :url => {:action => "create"}, :html => {:multipart => true}) do |f| %>
-            <%= f.text_field :firstname, class:"six columns mob-whole", placeholder: "First Name" %> <br />
-            <%= f.text_field :lastname, class:"six columns mob-whole", placeholder: "Last Name" %> <br />
-            <%= f.email_field :email, class:"six columns mob-whole", placeholder: "Email" %> <br />
-            <%= f.text_field :subject, class:"six columns mob-whole", placeholder: "Subject" %><br />
-            <%= f.text_area :message, class:"six columns mob-whole", placeholder: "Message" %> <br />
+            <%= f.text_field :firstname, placeholder: "First Name" %> <br />
+            <%= f.text_field :lastname, placeholder: "Last Name" %> <br />
+            <%= f.email_field :email, placeholder: "Email" %> <br />
+            <%= f.text_field :subject, placeholder: "Subject" %><br />
+            <%= f.text_area :message, placeholder: "Message" %> <br />
 	    <input type="submit" value="Send">
 	 <% end %>
       <!-- /form-section -->     
-
-                      </div>
-                    </div>
-                </fieldset>
-            </form>
-            </div>
-       </div>
-
+       
    </section>  <!-- /contact-->
      <!-- Footer
    ================================================== -->
@@ -310,7 +298,7 @@ Providing utility Workshops in schools and colleges for development of their int
             </div> <!-- /Row(nested) -->
           </div>
          
-         <p class="copyright">&copy; Copyright 2016 Eze Innovations. Design by <a href="http://www.facebook.com/ShivinAgarwal">Shivin Agarwal.</a></p>
+         <p class="copyright">&copy; Copyright 2016 EZe Innovations. Developed by <a href="http://www.facebook.com/ShivinAgarwal">Shivin Agarwal.</a></p>
           
          <div id="go-top">
             <a class="smoothscroll" title="Back to Top" href="#hero"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
@@ -327,7 +315,7 @@ Providing utility Workshops in schools and colleges for development of their int
    <script src="assets/jquery.fittext.js"></script>
    <script src="assets/backstretch.js"></script> 
    <script src="assets/waypoints.js"></script>  
-   <script src="/assets/main.js"></script>
+   <script src="assets/main.js"></script>
 
 </body>
 

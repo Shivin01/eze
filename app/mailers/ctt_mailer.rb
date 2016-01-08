@@ -1,8 +1,9 @@
-class Contactustushar_Mailer < ActionMailer::Base
+class CttMailer < ActionMailer::Base
 
-def contact_created(current_user,pin_user,content)
+def contact_created(firstname,lastname,email,subject,message)
 	@email = email
 	@firstname = firstname
+	@lastname = lastname
 	@subject = subject
 	@message = message
 
