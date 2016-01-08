@@ -410,7 +410,8 @@ input[type="button"]:hover {
 	color: white;
 }
 .button.primary, button.primary {
-	background: #f26522;
+	/*background: #f26522;*/
+    background: #12151b;
 }
 .button.primary:hover, button.primary:hover {
 	background: #e3520d;
@@ -424,9 +425,9 @@ button.large, .button.large {
 	padding: 15px 20px !important;
 }
 button.round, .button.round {
-	padding-left: 20px !important;
-	padding-right: 20px !important;
-	border-radius: 1000px;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	border-radius: 100px;
 	background-clip: padding-box;
 }
 button.stroke, .button.stroke {
