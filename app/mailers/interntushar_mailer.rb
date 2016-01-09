@@ -12,7 +12,6 @@ def contact_created(name,email,college,course,year,number,field)
 	mail(to: "tushar.ezeinno@gmail.com", 
 		 from: "services@mydomain.com",
 		 subject: "InternShip program",
-		 #body: "Thankyou for contacting Eze Innovations We will conatct you soon!"
 	     )
 	end
 

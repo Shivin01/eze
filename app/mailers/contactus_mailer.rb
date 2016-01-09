@@ -5,8 +5,8 @@ def contact_created(email)
 
 	mail(to: email, 
 		 from: "services@mydomain.com",
-		 subject: "Eze Innovations",
-		 body: "Thankyou for contacting Eze Innovations We will conatct you soon!"
+		 subject: "EZe Innovations",
+		 body: "Thankyou for contacting EZe Innovations. We will conatct you soon!"
 	     )
 	end
 
